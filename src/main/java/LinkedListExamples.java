@@ -17,7 +17,7 @@ public class LinkedListExamples {
 
     shoppingList.removeFirst();
     System.out.println(shoppingList);
-
+// for Thread safe
     List<String> synchronizedShoppingList = Collections.synchronizedList(shoppingList);
     System.out.println(synchronizedShoppingList);
     
