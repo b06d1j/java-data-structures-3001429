@@ -30,7 +30,7 @@ class CollectionsExerciseTest {
 
   @Test
   public void testRemoveItemFromTopOfStack() {
-    Deque<Integer> stack = new ArrayDeque();
+    Deque<Integer> stack = new ArrayDeque<>();
     stack.push(1);
     stack.push(2);
     stack.push(3);
@@ -42,7 +42,7 @@ class CollectionsExerciseTest {
 
   @Test
   public void testRemoveItemFromFrontOfQueue() {
-    Queue<Integer> queue = new ArrayDeque();
+    Queue<Integer> queue = new ArrayDeque<>();
     queue.offer(1);
     queue.offer(2);
     queue.offer(3);
